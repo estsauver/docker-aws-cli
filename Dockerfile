@@ -38,7 +38,9 @@ RUN apt-get install -y \
     python \
     python-pip \
     python-virtualenv \
-    vim
+    vim \
+    zip \
+    unzip 
 
 RUN adduser --disabled-login --gecos '' aws
 WORKDIR /home/aws
